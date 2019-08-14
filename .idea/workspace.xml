@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8082fb50-63c5-459f-a138-c4983a902c31" name="Default Changelist" comment="" />
+    <list default="true" id="8082fb50-63c5-459f-a138-c4983a902c31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/EmployeeGenderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/EmployeeGenderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeGender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeGenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeGenderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dimitri/service/impl/EmployeeGenderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dimitri/service/impl/EmployeeGenderServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dimitri/controller/user/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimitri/controller/user/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dimitri/domain/user/EmployeeGender$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimitri/domain/user/EmployeeGender$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dimitri/domain/user/EmployeeGender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimitri/domain/user/EmployeeGender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dimitri/factory/user/EmployeeGenderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimitri/factory/user/EmployeeGenderFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dimitri/service/demography/impl/RaceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimitri/service/demography/impl/RaceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dimitri/service/user/impl/EmployeeGenderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dimitri/service/user/impl/EmployeeGenderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/dimitri/service/impl/EmployeeGenderServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/dimitri/service/impl/EmployeeGenderServiceImplTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,32 +31,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/demography/impl/GenderRepositoryImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/EmployeeGenderController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/FullEmployeeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="297">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,32 +49,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/EmployeeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/EmployeeGenderRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/util/Misc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/controller/demography/GenderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/controller/demography/RaceController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/factory/user/EmployeeFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/EmployeeServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/IRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/IService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/domain/demography/Race.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeGender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeGenderFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dimitri/factory/demography/GenderFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/demography/GenderFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/demography/RaceFactory.java" />
@@ -88,9 +75,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/demography/impl/GenderRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/domain/demography/Gender.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/demography/impl/GenderRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/demography/impl/RaceRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/user/EmployeeService.java" />
@@ -100,12 +85,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/impl/EmployeeGenderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/GenderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/demography/impl/RaceServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/impl/EmployeeGenderServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/demography/impl/GenderServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/EmployeeGenderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/RaceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeGender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeGenderFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/EmployeeGenderController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/impl/EmployeeGenderServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeRace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeRaceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeRaceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/EmployeeRaceRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeRaceRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/user/EmployeeRaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/EmployeeRaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeRaceRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/demography/impl/EmployeeRaceServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/user/impl/FullEmployeeServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/factory/user/EmployeeFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/service/EmployeeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/MakeEmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dimitri/controller/user/MakeEmployeeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/FullEmployeeServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -122,11 +127,13 @@
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +174,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dimitri" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
@@ -176,8 +183,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dimitri" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="demography" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
@@ -186,14 +192,64 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dimitri" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
               <item name="payroll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dimitri" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dimitri" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dimitri" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dimitri" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dimitri" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
@@ -202,32 +258,21 @@
               <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
               <item name="payroll" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dimitri" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="demography" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="payroll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="payroll" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dimitri" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="demography" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -238,10 +283,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dimitri.controller.user" />
+      <recent name="com.dimitri.service.user.impl" />
       <recent name="com.dimitri.service.demography.impl" />
-      <recent name="com.dimitri.service.impl" />
       <recent name="com.dimitri.repository.user.impl" />
-      <recent name="com.dimitri.repository.demography.impl" />
+      <recent name="com.dimitri.service.impl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dimitri.repository.user" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -259,8 +308,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceTest">
-    <configuration name="EmployeeGenderRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MakeEmployeeControllerTest">
+    <configuration name="EmployeeFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payroll" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimitri.factory.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dimitri.factory.user" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitri.factory.user.EmployeeFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
@@ -269,22 +333,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dimitri.repository.user.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.dimitri.repository.user.impl.EmployeeGenderRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeGenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="payroll" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dimitri.service.user.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dimitri.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.dimitri.service.impl.EmployeeGenderServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitri.repository.user.impl.EmployeeRepositoryImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,31 +354,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenderServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FullEmployeeServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dimitri.service.demography.impl.*" />
+          <option name="PATTERN" value="com.dimitri.service.user.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dimitri.service.demography.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.dimitri.service.demography.impl.GenderServiceImplTest" />
+      <option name="PACKAGE_NAME" value="com.dimitri.service.user.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitri.service.user.impl.FullEmployeeServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MakeEmployeeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="payroll" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dimitri.service.demography.impl.*" />
+          <option name="PATTERN" value="com.dimitri.controller.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dimitri.service.demography.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.dimitri.service.demography.impl.RaceServiceImplTest" />
+      <option name="PACKAGE_NAME" value="com.dimitri.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.dimitri.controller.user.MakeEmployeeControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MakeEmployeeControllerTest" />
+        <item itemvalue="JUnit.EmployeeRepositoryImplTest" />
         <item itemvalue="JUnit.EmployeeServiceTest" />
-        <item itemvalue="JUnit.EmployeeGenderServiceImplTest" />
-        <item itemvalue="JUnit.GenderServiceImplTest" />
-        <item itemvalue="JUnit.RaceServiceImplTest" />
-        <item itemvalue="JUnit.EmployeeGenderRepositoryImplTest" />
+        <item itemvalue="JUnit.EmployeeFactoryTest" />
+        <item itemvalue="JUnit.FullEmployeeServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -359,49 +408,51 @@
       <workItem from="1565553005105" duration="2690000" />
       <workItem from="1565632997357" duration="16430000" />
       <workItem from="1565691672350" duration="2624000" />
+      <workItem from="1565729002176" duration="6146000" />
+      <workItem from="1565765573122" duration="6188000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GenderRepositoryImplTest_d_getAll - 2019.08.12 at 23h 44m 52s.xml">
-      <configuration name="GenderRepositoryImplTest.d_getAll" configurationId="JUnit" />
+    <history-entry file="MakeEmployeeControllerTest - 2019.08.14 at 10h 04m 08s.xml">
+      <configuration name="MakeEmployeeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeRepositoryImplTest_d_getAll - 2019.08.12 at 23h 45m 35s.xml">
-      <configuration name="EmployeeRepositoryImplTest.d_getAll" configurationId="JUnit" />
+    <history-entry file="EmployeeFactoryTest - 2019.08.14 at 10h 10m 54s.xml">
+      <configuration name="EmployeeFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RaceRepositoryImplTest - 2019.08.12 at 23h 52m 31s.xml">
-      <configuration name="RaceRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeGenderRepositoryImplTest - 2019.08.13 at 00h 00m 28s.xml">
-      <configuration name="EmployeeGenderRepositoryImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceServiceImplTest - 2019.08.13 at 00h 35m 06s.xml">
-      <configuration name="RaceServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RaceServiceImplTest - 2019.08.13 at 00h 35m 42s.xml">
-      <configuration name="RaceServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeGenderServiceImplTest - 2019.08.13 at 00h 37m 15s.xml">
-      <configuration name="EmployeeGenderServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GenderServiceImplTest - 2019.08.13 at 00h 40m 00s.xml">
-      <configuration name="GenderServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeGenderServiceImplTest - 2019.08.13 at 00h 41m 35s.xml">
-      <configuration name="EmployeeGenderServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmployeeServiceTest - 2019.08.13 at 00h 41m 46s.xml">
+    <history-entry file="EmployeeServiceTest - 2019.08.14 at 10h 11m 09s.xml">
       <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeEmployeeControllerTest - 2019.08.14 at 10h 11m 21s.xml">
+      <configuration name="MakeEmployeeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeFactoryTest - 2019.08.14 at 10h 13m 47s.xml">
+      <configuration name="EmployeeFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeServiceTest - 2019.08.14 at 10h 14m 10s.xml">
+      <configuration name="EmployeeServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeRepositoryImplTest - 2019.08.14 at 10h 14m 25s.xml">
+      <configuration name="EmployeeRepositoryImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeEmployeeControllerTest - 2019.08.14 at 10h 20m 59s.xml">
+      <configuration name="MakeEmployeeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeEmployeeControllerTest - 2019.08.14 at 10h 24m 12s.xml">
+      <configuration name="MakeEmployeeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MakeEmployeeControllerTest - 2019.08.14 at 14h 08m 28s.xml">
+      <configuration name="MakeEmployeeControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22504000" />
+    <option name="totallyTimeSpent" value="34838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,7 +461,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,8 +469,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -432,7 +483,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,7 +492,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,8 +500,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -479,176 +530,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/App.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/util/Misc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/factory/user/EmployeeFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/IRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeGender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#2513#2514#0" expanded="true" />
-            <element signature="e#2571#2572#0" expanded="true" />
-            <element signature="e#3237#3238#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/demography/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/factory/demography/GenderFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/demography/RaceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/demography/GenderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeGenderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/demography/GenderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/demography/RaceRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/EmployeeGenderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/demography/impl/RaceRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -671,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -685,13 +559,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/demography/Gender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -703,16 +570,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1352#1353#0" expanded="true" />
             <element signature="e#1384#1385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,27 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/demography/impl/RaceRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -801,23 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/service/impl/EmployeeGenderServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/service/EmployeeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,28 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/EmployeeGenderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/GenderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/RaceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -896,29 +697,297 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/demography/impl/GenderRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/demography/Race.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="17">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/demography/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeGenderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/EmployeeGenderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="223">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/demography/impl/GenderRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeGender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/domain/user/EmployeeRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeRaceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="66" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/EmployeeRaceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/GenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/user/EmployeeRaceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/repository/user/impl/EmployeeRaceRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeGenderRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/EmployeeGenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/demography/impl/EmployeeRaceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/service/demography/impl/EmployeeRaceServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeRaceRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="74" column="15" lean-forward="true" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/service/impl/EmployeeGenderServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1956#1957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/service/user/impl/FullEmployeeServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/factory/user/EmployeeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/factory/user/EmployeeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/service/EmployeeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/repository/user/impl/EmployeeRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dimitri/controller/user/MakeEmployeeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/controller/user/MakeEmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="33" column="84" lean-forward="true" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dimitri/service/user/impl/FullEmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

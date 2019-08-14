@@ -24,7 +24,7 @@ public class EmployeeGenderServiceImplTest {
     @Before
     public void setUp() throws Exception {
         this.employeeGenderRepository = EmployeeGenderRepositoryImpl.getRepository();
-        this.employeeGender = EmployeeGenderFactory.buildEmployeeGender("Dimitri", "Ferus","Male");
+        this.employeeGender = EmployeeGenderFactory.buildEmployeeGender();
         this.employeeGenders = new HashSet<>();
         this.employeeGenderRepository.create(employeeGender);
     }
@@ -37,17 +37,17 @@ public class EmployeeGenderServiceImplTest {
         d_getAll();
         Assert.assertSame(created, this.employee);*/
 
-        String name = "Dimitri";
+        String newNumber = employeeGender.getEmployeeNumber();
         Assert.assertEquals(1, this.employeeGenderRepository.getAll().size());
-        Assert.assertEquals(name,employeeGender.getEmployeeFirstName());
+        Assert.assertEquals(newNumber,employeeGender.getEmployeeNumber());
         Assert.assertNotNull(employeeGenders);
         System.out.println(employeeGender.toString());
     }
 
     @Test
     public void b_update() {
-        String newName = "Mark";
-        EmployeeGender employeeGenderNew = new EmployeeGender.Builder().copy(employeeGender).employeeFirstName(newName).build();
+        String newNumber = "211114";
+        EmployeeGender employeeGenderNew = new EmployeeGender.Builder().copy(employeeGender).employeeNumber(newNumber).build();
         this.employeeGenderRepository.create(employeeGenderNew);
         System.out.println("In update, about to be updated = " + employeeGenderNew);
         employeeGenders.add(this.employeeGenderRepository.update(employeeGenderNew));

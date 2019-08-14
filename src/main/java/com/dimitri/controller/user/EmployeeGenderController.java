@@ -33,8 +33,4 @@ public class EmployeeGenderController {
         this.service.delete(id);
     }
 
-    public void createFullEmp(EmployeeGender employeeGender, Race race){
-        employeeGender = EmployeeGenderFactory.buildEmployeeGender("Dimitri","Ferus","Male");
-        race = RaceFactory.buildRace("Coloured");
-    }
 }

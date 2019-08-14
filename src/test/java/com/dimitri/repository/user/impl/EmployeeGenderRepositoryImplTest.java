@@ -5,13 +5,15 @@ import com.dimitri.factory.user.EmployeeGenderFactory;
 import com.dimitri.repository.user.EmployeeGenderRepository;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import static org.junit.Assert.*;
-
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class EmployeeGenderRepositoryImplTest {
 
     private EmployeeGenderRepository employeeGenderRepository;
@@ -21,7 +23,7 @@ public class EmployeeGenderRepositoryImplTest {
     @Before
     public void setUp() throws Exception {
         this.employeeGenderRepository = EmployeeGenderRepositoryImpl.getRepository();
-        this.employeeGender = EmployeeGenderFactory.buildEmployeeGender("Dimitri", "Ferus","Male");
+        this.employeeGender = EmployeeGenderFactory.buildEmployeeGender();
         this.employeeGenders = new HashSet<>();
         this.employeeGenderRepository.create(employeeGender);
     }
@@ -34,17 +36,17 @@ public class EmployeeGenderRepositoryImplTest {
         d_getAll();
         Assert.assertSame(created, this.employee);*/
 
-        String name = "Dimitri";
+        String newNumber = employeeGender.getEmployeeNumber();
         Assert.assertEquals(1, this.employeeGenderRepository.getAll().size());
-        Assert.assertEquals(name,employeeGender.getEmployeeFirstName());
+        Assert.assertEquals(newNumber,employeeGender.getEmployeeNumber());
         Assert.assertNotNull(employeeGenders);
         System.out.println(employeeGender.toString());
     }
 
     @Test
     public void b_update() {
-        String newName = "Mark";
-        EmployeeGender employeeGenderNew = new EmployeeGender.Builder().copy(employeeGender).employeeFirstName(newName).build();
+        String newNumber = "222222";
+        EmployeeGender employeeGenderNew = new EmployeeGender.Builder().copy(employeeGender).employeeNumber(newNumber).build();
         this.employeeGenderRepository.create(employeeGenderNew);
         System.out.println("In update, about to be updated = " + employeeGenderNew);
         employeeGenders.add(this.employeeGenderRepository.update(employeeGenderNew));
