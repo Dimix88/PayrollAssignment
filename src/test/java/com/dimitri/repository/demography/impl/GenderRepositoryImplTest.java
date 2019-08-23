@@ -25,40 +25,42 @@ public class GenderRepositoryImplTest {
         this.genderRepository = GenderRepositoryImpl.getRepository();
         this.gender = GenderFactory.buildGender("Male");
         this.genders = new HashSet<>();
-        this.genderRepository.create(gender);
+        genders.add(this.genderRepository.create(gender));
     }
 
 
     @Test
     public void a_create() {
-        /*Employee created = this.employeeRepository.create(this.employee);
-        System.out.println("In create, created = " + created);
-        d_getAll();
-        Assert.assertSame(created, this.employee);*/
-
+        Gender gender2 = GenderFactory.buildGender("Male");
+        genders.add(genderRepository.create(gender2));
         String name = "Male";
-        Assert.assertEquals(1, this.genderRepository.getAll().size());
-        Assert.assertEquals(name,gender.getGenderDescription());
+        Assert.assertEquals(genders.size(), this.genderRepository.getAll().size());
+        Assert.assertEquals(name,gender2.getGenderDescription());
         Assert.assertNotNull(genders);
-        System.out.println(gender.toString());
+        Assert.assertEquals(gender2,genderRepository.read(gender2.getGenderId()));
+        System.out.println(gender2.toString());
     }
 
     @Test
     public void b_update() {
         String newName = "Female";
         Gender genderNew = new Gender.Builder().copy(gender).genderDescription(newName).build();
-        this.genderRepository.create(genderNew);
-        System.out.println("In update, about to be updated = " + genderNew);
         genders.add(this.genderRepository.update(genderNew));
+        System.out.println("In update, about to be updated = " + genderNew);
         Assert.assertEquals(genderNew, this.genderRepository.read(genderNew.getGenderId()));
 
     }
 
     @Test
     public void e_delete() {
-
-        this.genderRepository.delete(gender.getGenderId());
+        Gender deleteGender = GenderFactory.buildGender("Males");
+        genders.add(this.genderRepository.create(deleteGender));
+        genders.remove(deleteGender);
+        this.genderRepository.delete(deleteGender.getGenderId());
+        Gender result = this.genderRepository.read(deleteGender.getGenderId());
         System.out.println(genders);
+        Assert.assertFalse(genderRepository.getAll().iterator().next().getGenderDescription().contains("Males"));
+        Assert.assertNull(result);
     }
 
     @Test
@@ -67,7 +69,7 @@ public class GenderRepositoryImplTest {
         System.out.println("In read, courseId = "+ gender.getGenderId());
         Gender read = this.genderRepository.read(gender.getGenderId());
         System.out.println("In read, read = "+ read);
-        Assert.assertEquals(gender.getGenderId(), this.genderRepository.read(gender.getGenderId()).getGenderId());
+        Assert.assertEquals(read.getGenderId(), this.genderRepository.read(read.getGenderId()).getGenderId());
     }
 
     @Test
@@ -75,5 +77,6 @@ public class GenderRepositoryImplTest {
         Set<Gender> all = this.genderRepository.getAll();
         System.out.println("In getAll, all = " + all);
         Assert.assertSame(all.size(), this.genderRepository.getAll().size());
+        Assert.assertEquals(all.size(), this.genderRepository.getAll().size());
     }
 }

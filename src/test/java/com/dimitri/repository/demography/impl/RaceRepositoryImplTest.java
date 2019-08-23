@@ -25,21 +25,19 @@ public class RaceRepositoryImplTest {
         this.raceRepository = RaceRepositoryImpl.getRepository();
         this.race = RaceFactory.buildRace("Col");
         this.races = new HashSet<>();
-        this.raceRepository.create(race);
+        races.add(this.raceRepository.create(race));
     }
 
 
     @Test
     public void a_create() {
-        /*Employee created = this.employeeRepository.create(this.employee);
-        System.out.println("In create, created = " + created);
-        d_getAll();
-        Assert.assertSame(created, this.employee);*/
-
-        String name = "Col";
-        Assert.assertEquals(1, this.raceRepository.getAll().size());
-        Assert.assertEquals(name,race.getRaceDescription());
+        Race race2 = RaceFactory.buildRace("Indian");
+        races.add(this.raceRepository.create(race2));
+        String name = "Indian";
+        Assert.assertEquals(races.size(), this.raceRepository.getAll().size());
+        Assert.assertEquals(name,race2.getRaceDescription());
         Assert.assertNotNull(races);
+        Assert.assertEquals(race2, this.raceRepository.read(race2.getRaceId()));
         System.out.println(race.toString());
     }
 
@@ -47,27 +45,29 @@ public class RaceRepositoryImplTest {
     public void b_update() {
         String newName = "Black";
         Race raceNew = new Race.Builder().copy(race).raceDescription(newName).build();
-        this.raceRepository.create(raceNew);
-        System.out.println("In update, about to be updated = " + raceNew);
         races.add(this.raceRepository.update(raceNew));
+        System.out.println("In update, about to be updated = " + raceNew);
         Assert.assertEquals(raceNew, this.raceRepository.read(raceNew.getRaceId()));
 
     }
 
     @Test
     public void e_delete() {
-
-        this.raceRepository.delete(race.getRaceId());
+        Race deleteRace =  RaceFactory.buildRace("Asian");
+        races.add(this.raceRepository.create(deleteRace));
+        races.remove(deleteRace);
+        this.raceRepository.delete(deleteRace.getRaceId());
+        Race result = this.raceRepository.read(deleteRace.getRaceId());
         System.out.println(races);
+        Assert.assertFalse(this.raceRepository.getAll().iterator().next().getRaceId().contains("Asian"));
+        Assert.assertNull(result);
     }
 
     @Test
     public void c_read() {
-
-        System.out.println("In read, courseId = "+ race.getRaceId());
         Race read = this.raceRepository.read(race.getRaceId());
         System.out.println("In read, read = "+ read);
-        Assert.assertEquals(race.getRaceId(), this.raceRepository.read(race.getRaceId()).getRaceId());
+        Assert.assertEquals(read.getRaceId(), this.raceRepository.read(read.getRaceId()).getRaceId());
     }
 
     @Test
@@ -75,5 +75,6 @@ public class RaceRepositoryImplTest {
         Set<Race> all = this.raceRepository.getAll();
         System.out.println("In getAll, all = " + all);
         Assert.assertSame(all.size(), this.raceRepository.getAll().size());
+        Assert.assertEquals(all.size(),this.raceRepository.getAll().size());
     }
 }

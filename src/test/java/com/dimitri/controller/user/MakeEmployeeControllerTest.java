@@ -22,33 +22,18 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MakeEmployeeControllerTest {
-    private static MakeEmployeeController controller = new MakeEmployeeController();
+    private static MakeEmployeeController controller;
     private Employee emp;
-    private Race race;
-    private Gender gender;
-    private GenderService genderService;
-    private RaceService raceService;
 
-    @Before
-    public void setUp() throws Exception {
-        genderService = GenderServiceImpl.getGenderService();
-        raceService = RaceServiceImpl.getRaceService();
-        race = RaceFactory.buildRace("Coloured");
-        gender = GenderFactory.buildGender("Male");
 
-    }
+
 
     @Test
     public void createFullEmp() {
-        emp = controller.createFullEmp("Dimitri","Ferus",gender.getGenderDescription(),race.getRaceDescription());
-        genderService.create(gender);
-        raceService.create(race);
-        String raceNumber = race.getRaceId();
-        String genderNumber = gender.getGenderId();
+        controller = new MakeEmployeeController();
+        emp = controller.createFullEmp("Dimitri","Ferus","Male","Coloured");
+        String id = emp.getEmployeeNumber();
         Assert.assertNotNull(emp);
-        System.out.println(emp);
-        Assert.assertEquals("Male",genderService.read(genderNumber).getGenderDescription());
-        Assert.assertEquals("Coloured",raceService.read(raceNumber).getRaceDescription());
 
     }
 }

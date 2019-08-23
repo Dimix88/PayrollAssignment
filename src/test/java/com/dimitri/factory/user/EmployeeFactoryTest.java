@@ -17,7 +17,9 @@ public class EmployeeFactoryTest {
     @Test
     public void buildEmployee() {
         Employee employee = EmployeeFactory.buildEmployee("Dimitri", "Ferus");
+        String name = "Dimitri";
         System.out.println(employee);
         Assert.assertNotNull(employee.getEmployeeNumber());
+        Assert.assertEquals(name, employee.getEmployeeFirstName());
     }
 }

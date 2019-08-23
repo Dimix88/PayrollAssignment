@@ -1,6 +1,7 @@
 package com.dimitri.controller.user;
 
 import com.dimitri.domain.demography.Race;
+import com.dimitri.domain.user.Employee;
 import com.dimitri.domain.user.EmployeeGender;
 import com.dimitri.factory.demography.RaceFactory;
 import com.dimitri.factory.user.EmployeeGenderFactory;
@@ -33,4 +34,7 @@ public class EmployeeGenderController {
         this.service.delete(id);
     }
 
+    public Employee createEmployee(String fName,String lName, String gender,String race){
+        return null;
+    }
 }

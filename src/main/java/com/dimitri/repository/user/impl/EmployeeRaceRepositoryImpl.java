@@ -58,7 +58,7 @@ public class EmployeeRaceRepositoryImpl implements EmployeeRaceRepository {
     }
 
     private EmployeeRace search(String id){
-        for(EmployeeRace empRace: employeeRaces){
+        for(EmployeeRace empRace: this.employeeRaces){
             if(empRace.getEmployeeNumber().equals(id)){
                 return empRace;
             }

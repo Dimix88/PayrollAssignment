@@ -32,20 +32,19 @@ public class MakeEmployeeController {
    private EmployeeRaceService employeeRaceService = EmployeeRaceServiceImpl.getEmployeeRaceService();
 
    public Employee createFullEmp(String fName, String lName, String gen, String ra){
-       Employee emp = EmployeeFactory.buildEmployee(fName,lName);
-       employeeService.create(emp);
 
-       Gender gender = GenderFactory.buildGender(gen);
-       genderService.create(gender);
+       Employee emp = employeeService.create(EmployeeFactory.buildEmployee(fName,lName));
+       String empId = emp.getEmployeeNumber();
 
-       Race race = RaceFactory.buildRace(ra);
-       raceService.create(race);
+       Gender gender = genderService.create(GenderFactory.buildGender(gen));
+       String genderId= gender.getGenderId();
 
-       EmployeeGender employeeGender = EmployeeGenderFactory.buildEmployeeGender();
-       employeeGenderService.create(employeeGender);
+       Race race = raceService.create(RaceFactory.buildRace(ra));
+       String raceId = race.getRaceId();
 
-       EmployeeRace employeeRace = EmployeeRaceFactory.buildEmployeeRace();
-       employeeRaceService.create(employeeRace);
+       employeeGenderService.create(EmployeeGenderFactory.buildEmployeeGender(empId,genderId));
+       employeeRaceService.create(EmployeeRaceFactory.buildEmployeeRace(empId,raceId));
+
        return emp;
    }
 }

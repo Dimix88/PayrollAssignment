@@ -31,7 +31,7 @@ public class EmployeeGenderRepositoryImpl implements EmployeeGenderRepository {
     @Override
     public EmployeeGender update(EmployeeGender employeeGender) {
         //EmployeeGender em = new EmployeeGender.Builder().copy(employeeGender).employeeFirstName(); #Due to using SET this is not needed
-        EmployeeGender toDelete = search(employeeGender.getGenderId());
+        EmployeeGender toDelete = search(employeeGender.getEmployeeNumber());
         if (toDelete != null){
             this.employeeGenders.remove(toDelete);
             return create(employeeGender);

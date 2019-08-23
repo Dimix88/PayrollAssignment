@@ -43,4 +43,5 @@ public class EmployeeGenderServiceImpl implements EmployeeGenderService {
     public EmployeeGender read(String s) {
         return this.employeeGenderRepository.read(s);
     }
+
 }

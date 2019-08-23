@@ -57,4 +57,17 @@ public class Gender implements Comparable<Gender>{
             return new Gender(this);
         }
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Gender)) return false;
+        Gender gender = (Gender) o;
+        return genderId.equals(gender.genderId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(genderId);
+    }
 }

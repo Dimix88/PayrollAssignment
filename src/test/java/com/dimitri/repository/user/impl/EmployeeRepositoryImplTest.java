@@ -26,49 +26,51 @@ public class EmployeeRepositoryImplTest {
         this.employeeRepository = EmployeeRepositoryImpl.getRepository();
         this.employee = EmployeeFactory.buildEmployee("Dimitri", "Ferus");
         this.employees = new HashSet<>();
-        this.employeeRepository.create(employee);
+        employees.add(employeeRepository.create(employee));
     }
 
 
     @Test
     public void a_create() {
-        /*Employee created = this.employeeRepository.create(this.employee);
-        System.out.println("In create, created = " + created);
-        d_getAll();
-        Assert.assertSame(created, this.employee);*/
 
-        String name = "Dimitri";
-        Assert.assertEquals(1, this.employeeRepository.getAll().size());
-        Assert.assertEquals(name,employee.getEmployeeFirstName());
+        Employee employee2 = EmployeeFactory.buildEmployee("Marky","Mark");
+        employees.add(employeeRepository.create(employee2));
+        String name = "Marky";
+        Assert.assertEquals(2, this.employeeRepository.getAll().size());
+        Assert.assertEquals(name,employee2.getEmployeeFirstName());
         Assert.assertNotNull(employees);
-        System.out.println(employee.toString());
+        Assert.assertEquals(employee2,employeeRepository.read(employee2.getEmployeeNumber()));
+        System.out.println(employee2.toString());
     }
 
     @Test
     public void b_update() {
         String newName = "Mark";
         Employee employeeNew = new Employee.Builder().copy(employee).employeeFirstName(newName).build();
-        this.employeeRepository.create(employeeNew);
-        System.out.println("In update, about to be updated = " + employeeNew);
         employees.add(this.employeeRepository.update(employeeNew));
+        System.out.println("In update, about to be updated = " + employeeNew);
         Assert.assertEquals(employeeNew, this.employeeRepository.read(employeeNew.getEmployeeNumber()));
 
     }
 
     @Test
     public void e_delete() {
-
-        this.employeeRepository.delete(employee.getEmployeeNumber());
+        Employee deleteEmployee = EmployeeFactory.buildEmployee("Ken","King");
+        employees.add(employeeRepository.create(deleteEmployee));
+        employees.remove(deleteEmployee);
+        employeeRepository.delete(deleteEmployee.getEmployeeNumber());
+        Employee result = employeeRepository.read(deleteEmployee.getEmployeeNumber());
         System.out.println(employees);
+        Assert.assertFalse(employeeRepository.getAll().iterator().next().getEmployeeFirstName().contains("Ken"));
+        Assert.assertNull(result);
     }
 
     @Test
     public void c_read() {
 
-        System.out.println("In read, courseId = "+ employee.getEmployeeNumber());
         Employee read = this.employeeRepository.read(employee.getEmployeeNumber());
         System.out.println("In read, read = "+ read);
-        Assert.assertEquals(employee.getEmployeeNumber(), this.employeeRepository.read(employee.getEmployeeNumber()).getEmployeeNumber());
+        Assert.assertEquals(read.getEmployeeNumber(), this.employeeRepository.read(employee.getEmployeeNumber()).getEmployeeNumber());
     }
 
     @Test
@@ -76,5 +78,6 @@ public class EmployeeRepositoryImplTest {
         Set<Employee> all = this.employeeRepository.getAll();
         System.out.println("In getAll, all = " + all);
         Assert.assertSame(all.size(), this.employeeRepository.getAll().size());
+        Assert.assertEquals(all.size(),employeeRepository.getAll().size());
     }
 }

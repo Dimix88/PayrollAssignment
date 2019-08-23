@@ -42,8 +42,8 @@ public class EmployeeGender implements Comparable<EmployeeGender>{
                 return this;
             }
             public Builder copy(EmployeeGender employeeGender){
-                this.employeeNumber = employeeGender.getEmployeeNumber();
-                this.genderId = employeeGender.getGenderId();
+                this.employeeNumber = employeeGender.employeeNumber;
+                this.genderId = employeeGender.genderId;
                 return this;
             }
             public EmployeeGender build(){

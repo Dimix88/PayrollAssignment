@@ -5,9 +5,10 @@ import com.dimitri.util.Misc;
 
 public class EmployeeGenderFactory {
 
-    public static EmployeeGender buildEmployeeGender(){
-        return new EmployeeGender.Builder().employeeNumber(Misc.generateId())
-                .genderId(Misc.generateId())
+    public static EmployeeGender buildEmployeeGender(String empId,String genId){
+        return new EmployeeGender.Builder()
+                .employeeNumber(empId)
+                .genderId(genId)
                 .build();
     }
 }

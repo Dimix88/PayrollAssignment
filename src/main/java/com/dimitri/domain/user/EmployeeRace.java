@@ -55,13 +55,12 @@ public class EmployeeRace implements Comparable<EmployeeRace> {
         if (this == o) return true;
         if (!(o instanceof EmployeeRace)) return false;
         EmployeeRace that = (EmployeeRace) o;
-        return employeeNumber.equals(that.employeeNumber) &&
-                raceId.equals(that.raceId);
+        return employeeNumber.equals(that.employeeNumber);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(employeeNumber, raceId);
+        return Objects.hash(employeeNumber);
     }
 
     @Override

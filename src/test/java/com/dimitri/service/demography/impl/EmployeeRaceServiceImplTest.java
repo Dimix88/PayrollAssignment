@@ -1,9 +1,10 @@
 package com.dimitri.service.demography.impl;
 
 import com.dimitri.domain.user.EmployeeRace;
+import com.dimitri.factory.user.EmployeeGenderFactory;
 import com.dimitri.factory.user.EmployeeRaceFactory;
-import com.dimitri.repository.user.EmployeeRaceRepository;
 import com.dimitri.repository.user.impl.EmployeeRaceRepositoryImpl;
+import com.dimitri.service.user.EmployeeRaceService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
@@ -18,64 +19,60 @@ import static org.junit.Assert.*;
 public class EmployeeRaceServiceImplTest {
 
 
-    private EmployeeRaceRepository employeeRaceRepository;
+    private EmployeeRaceService employeeRaceService;
     private EmployeeRace employeeRace;
-    private Set<EmployeeRace> employeeRaces;
 
     @Before
     public void setUp() throws Exception {
-        this.employeeRaceRepository = EmployeeRaceRepositoryImpl.getRepository();
-        this.employeeRace = EmployeeRaceFactory.buildEmployeeRace();
-        this.employeeRaces = new HashSet<>();
-        this.employeeRaceRepository.create(employeeRace);
+        this.employeeRaceService = EmployeeRaceServiceImpl.getEmployeeRaceService();
+        this.employeeRace = EmployeeRaceFactory.buildEmployeeRace("4443","1177");
+        this.employeeRaceService.create(employeeRace);
     }
 
 
     @Test
     public void a_create() {
-        /*Employee created = this.employeeRepository.create(this.employee);
-        System.out.println("In create, created = " + created);
-        d_getAll();
-        Assert.assertSame(created, this.employee);*/
-
-        String newNumber = employeeRace.getEmployeeNumber();
-        Assert.assertEquals(1, this.employeeRaceRepository.getAll().size());
-        Assert.assertEquals(newNumber,employeeRace.getEmployeeNumber());
-        Assert.assertNotNull(employeeRaces);
-        System.out.println(employeeRace.toString());
+        EmployeeRace employeeRace2 = EmployeeRaceFactory.buildEmployeeRace("1111","2222");
+        this.employeeRaceService.create(employeeRace2);
+        String newNumber = employeeRace2.getEmployeeNumber();
+        Assert.assertEquals(newNumber,employeeRace2.getEmployeeNumber());
+        Assert.assertNotNull(employeeRace2);
+        Assert.assertEquals(employeeRace2,this.employeeRaceService.read(employeeRace2.getEmployeeNumber()));
+        System.out.println(employeeRace2.toString());
     }
 
     @Test
     public void b_update() {
         String newNumber = "222222";
-        EmployeeRace employeeRaceNew = new EmployeeRace.Builder().copy(employeeRace).employeeNumber(newNumber).build();
-        this.employeeRaceRepository.create(employeeRaceNew);
+        EmployeeRace employeeRaceNew = new EmployeeRace.Builder().copy(employeeRace).raceId(newNumber).build();
+        this.employeeRaceService.create(employeeRaceNew);
         System.out.println("In update, about to be updated = " + employeeRaceNew);
-        employeeRaces.add(this.employeeRaceRepository.update(employeeRaceNew));
-        Assert.assertEquals(employeeRaceNew, this.employeeRaceRepository.read(employeeRaceNew.getEmployeeNumber()));
+        Assert.assertEquals(employeeRaceNew, this.employeeRaceService.read(employeeRaceNew.getEmployeeNumber()));
 
     }
 
     @Test
     public void e_delete() {
-
-        this.employeeRaceRepository.delete(employeeRace.getEmployeeNumber());
-        System.out.println(employeeRaces);
+        EmployeeRace deleteEmployeeRace = EmployeeRaceFactory.buildEmployeeRace("4444","9999");
+        employeeRaceService.create(deleteEmployeeRace);
+        employeeRaceService.delete(deleteEmployeeRace.getEmployeeNumber());
+        EmployeeRace result = this.employeeRaceService.read(deleteEmployeeRace.getEmployeeNumber());
+        Assert.assertFalse(this.employeeRaceService.getAll().iterator().next().getEmployeeNumber().contains("4444"));
+        Assert.assertNull(result);
     }
 
     @Test
     public void c_read() {
-
-        System.out.println("In read, courseId = "+ employeeRace.getEmployeeNumber());
-        EmployeeRace read = this.employeeRaceRepository.read(employeeRace.getEmployeeNumber());
+        EmployeeRace read = this.employeeRaceService.read(employeeRace.getEmployeeNumber());
         System.out.println("In read, read = "+ read);
-        Assert.assertEquals(employeeRace.getEmployeeNumber(), this.employeeRaceRepository.read(employeeRace.getEmployeeNumber()).getEmployeeNumber());
+        Assert.assertEquals(read.getEmployeeNumber(), this.employeeRaceService.read(employeeRace.getEmployeeNumber()).getEmployeeNumber());
     }
 
     @Test
     public void d_getAll() {
-        Set<EmployeeRace> all = this.employeeRaceRepository.getAll();
+        Set<EmployeeRace> all = this.employeeRaceService.getAll();
         System.out.println("In getAll, all = " + all);
-        Assert.assertSame(all.size(), this.employeeRaceRepository.getAll().size());
+        Assert.assertSame(all.size(), this.employeeRaceService.getAll().size());
+        Assert.assertEquals(all.size(), this.employeeRaceService.getAll().size());
     }
 }
